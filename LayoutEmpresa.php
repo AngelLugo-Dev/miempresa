@@ -24,15 +24,16 @@
 
     .navbar-brand .title {
       font-size: 1.6rem;
-      /* Más grande */
       font-weight: bold;
       color: #000;
-      line-height: 1.2;
+      line-height: 1.1;
+      display: block;
     }
 
     .navbar-brand .subtitle {
       font-size: 0.9rem;
       color: #000;
+      display: block;
     }
 
     .navbar-nav .nav-link {
@@ -60,12 +61,15 @@
       left: 50%;
       transform: translateX(-50%);
       font-size: 2.2rem;
-      /* más grande */
       font-weight: bold;
       text-align: center;
       color: #fff;
       text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
-      /* para resaltar */
+      border: 3px solid #fff;
+      /* Marco blanco */
+      padding: 10px 25px;
+      background: transparent;
+      /* Fondo transparente */
     }
 
     .overlay-buttons {
@@ -91,7 +95,6 @@
       content: '';
       position: absolute;
       left: -10px;
-      /* ahora apunta hacia la izquierda */
       top: 0;
       border-top: 20px solid transparent;
       border-bottom: 20px solid transparent;
@@ -121,11 +124,9 @@
     /* BLOQUE INFERIOR */
     .info-box {
       background: rgba(255, 255, 255, 0.9);
-      /* semi-transparente */
       border: 1px solid #ccc;
       padding: 20px;
       margin-top: -100px;
-      /* más arriba */
       text-align: center;
       z-index: 10;
       position: relative;
