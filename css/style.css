@@ -1,0 +1,40 @@
+.hero-section {
+  position: relative;
+  color: #fff;
+  padding-top: 100px; /* Adjust for fixed navbar */
+}
+
+.hero-section .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.hero-section .btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #000;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+.navbar-brand span {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.social-icons img {
+  width: 32px;
+  margin: 0 10px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
