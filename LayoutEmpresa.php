@@ -15,12 +15,16 @@
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="miscelanea/1f3c0f_b779c033eee84ab98788409e0494a7a1.png" alt="Logo" class="img-fluid" style="width:40px; height:40px;">
-        <div class="ms-2">
-          <span class="d-block fw-bold fs-4">Emprender</span>
-          <span class="d-block fs-6">Soluciones de Empleo</span>
+        <img src="miscelanea/1f3c0f_b779c033eee84ab98788409e0494a7a1.png"
+          alt="Logo"
+          class="img-fluid" style="width:40px; height:40px;">
+        <div class="ms-2 d-flex flex-column">
+          <span class="title fw-bold fs-4">Emprender</span>
+          <span class="subtitle fs-6">Soluciones de Empleo</span>
         </div>
       </a>
+
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
