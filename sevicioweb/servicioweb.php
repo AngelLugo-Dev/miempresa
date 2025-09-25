@@ -1,3 +1,8 @@
+<!-- integrantes 
+Raziel Job Vieyra Andrade 21200992
+Miguel Ángel Camargo Chavarria 21200587
+Angel Eduardo Lugo Lopez 21200612
+Alef David Esparza Diaz 21200591 -->
 <?php
 //SE COLOCA EL NOMBRE DE LA PÁGINA QUE CONTIENE LOS MÉTODOS DEL SERVICIO WEB
 include 'clsservicios.php';
